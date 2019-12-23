@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+header{
+	text-align: center;
+	background-color: #313131;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+header h1{
+	color: #db2d22;
+	font-family: 'Lobster', cursive;
+}
+header img{
+	border-radius: 200px;
+	width: 300px;
+	border: 10px solid #ffff33;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+}
+main img{
+	max-width: 100%;
+}
