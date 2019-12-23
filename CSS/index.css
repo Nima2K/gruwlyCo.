@@ -1,6 +1,5 @@
 body{
 	margin: 0;
-	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 }
 header{
@@ -10,13 +9,14 @@ header{
 	padding-bottom: 50px;
 }
 header h1{
-	color: #db2d22;
+	color: white;
 	font-family: 'Lobster', cursive;
 }
+header h1:hover{
+	color: pink;
+}
 header img{
-	border-radius: 200px;
-	width: 300px;
-	border: 10px solid #ffff33;
+	color: white;
 }
 main{
 	max-width: 800px;
@@ -24,4 +24,19 @@ main{
 }
 main img{
 	max-width: 100%;
+}
+main ol li:hover{
+	color: pink;
+}main ol li a:hover{
+	color: pink;
+	text-decoration: none;
+}
+
+footer{
+	background-color: #313131;
+	text-align: center;
+	padding: 50px;
+}
+footer p{
+	color: white;
 }
