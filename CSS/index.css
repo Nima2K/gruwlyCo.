@@ -1,3 +1,8 @@
+/*
+used Colors:
+Header, Footer, Links: Yellow (#ffd800)
+Header Logo and Text Hover: Dark Blue (#000354);
+*/
 body{
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
@@ -8,6 +13,7 @@ header{
 	padding: 50px 0px 50px 0px;
 	background-image: url("img/head.jpg");
 	margin: 0;
+  	background-repeat: repeat-x;
 }
 header h1{
 	color: white;
