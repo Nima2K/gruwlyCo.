@@ -1,39 +1,49 @@
 body{
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
+	background-image: url("C:/Users/niman/Desktop/gruwlyStart/img/background.jpg");
 }
 header{
 	text-align: center;
-	background-color: #313131;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 0px 50px 0px;
+	background-image: url("C:/Users/niman/Desktop/gruwlyStart/img/head.jpg");
+	margin: 0;
 }
 header h1{
 	color: white;
 	font-family: 'Lobster', cursive;
 }
 header h1:hover{
-	color: pink;
+	color: #000354;
 }
 header img{
+	filter: invert(100%) sepia(20%) saturate(27%) hue-rotate(102deg) brightness(106%) contrast(106%);
 	color: white;
+}
+header img:hover{
+	filter: invert(9%) sepia(32%) saturate(7002%) hue-rotate(231deg) brightness(92%) contrast(127%);
 }
 main{
 	max-width: 800px;
 	margin: 0 auto;
+	background-image: opacity: 0;
 }
 main img{
 	max-width: 100%;
 }
-main ol li:hover{
-	color: pink;
-}main ol li a:hover{
+main p{
+	margin-bottom: 0;
+}
+main ol{
+	margin-top: 0;
+}
+main ol li a:hover{
 	color: pink;
 	text-decoration: none;
 }
 
 footer{
-	background-color: #313131;
+	background-image: url("C:/Users/niman/Desktop/gruwlyStart/img/foot.jpg");
 	text-align: center;
 	padding: 50px;
 }
