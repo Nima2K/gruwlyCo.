@@ -1,12 +1,12 @@
 body{
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
-	background-image: url("C:/Users/niman/Desktop/gruwlyStart/img/background.jpg");
+	background-image: url("img/background.jpg");
 }
 header{
 	text-align: center;
 	padding: 50px 0px 50px 0px;
-	background-image: url("C:/Users/niman/Desktop/gruwlyStart/img/head.jpg");
+	background-image: url("img/head.jpg");
 	margin: 0;
 }
 header h1{
@@ -37,13 +37,17 @@ main p{
 main ol{
 	margin-top: 0;
 }
+main ol li a{
+	color: black;
+	text-decoration: none;
+}
 main ol li a:hover{
-	color: pink;
+	color: #ffd800;
 	text-decoration: none;
 }
 
 footer{
-	background-image: url("C:/Users/niman/Desktop/gruwlyStart/img/foot.jpg");
+	background-image: url("img/foot.jpg");
 	text-align: center;
 	padding: 50px;
 }
